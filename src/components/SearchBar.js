@@ -13,20 +13,23 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
         sx={{
           '& .MuiOutlinedInput-root': {
             '& fieldset': {
-              borderColor: 'white'
+              borderColor: 'white',
             },
             '&:hover fieldset': {
-              borderColor: 'white'
+              borderColor: 'white',
             },
             '&.Mui-focused fieldset': {
-              borderColor: 'white'
+              borderColor: 'white',
             },
           },
           '& .MuiInputLabel-root': {
-            color: 'white'
+            color: 'white',
+            '&.Mui-focused': {
+              color: 'white',
+            },
           },
           '& .MuiInputBase-input': {
-            color: 'white'
+            color: 'white',
           },
         }}
       />
